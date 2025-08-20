@@ -12,7 +12,7 @@ function bubbleSort(vetor, fnComp) {
   } while (trocou);
 }
 
-import { objMotoristas } from "./motoristas-obj-desord.mjs"
+import { objMotoristas } from "./data/motoristas-obj-desord.mjs"
 
 console.time("Tempo de ordenação");
 bubbleSort(objMotoristas, (elem1, elem2) => 
